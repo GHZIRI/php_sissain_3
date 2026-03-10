@@ -1,0 +1,13 @@
+I understood that before using PDO (PHP Data Objects), I need to provide:
+
+1- The server we are working on, usually localhost.
+
+2- the database name, username, and password.
+
+After that, I use try, which always runs the code and checks if there’s an error or not.
+
+If the code is correct, it continues normally.
+
+If there’s a mistake, it immediately goes to catch and shows the error message.
+
+Inside the try, we use PDO to work with values (like reading or writing data).
