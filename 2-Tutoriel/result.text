@@ -1,0 +1,5 @@
+In the connexion.php page, we connected our database using PHP.
+
+In my liste_utilisateurs.php page, I called the connexion.php 
+file using require to connect to the database. Then I used fetchAll()
+to retrieve all the users from the database and display them in a table.
