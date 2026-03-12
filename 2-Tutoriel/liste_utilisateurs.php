@@ -5,9 +5,7 @@
         $sql = "SELECT * FROM users";
         $stmt = $pdo ->query($sql);
         $users = $stmt->fetchAll(PDO::FETCH_ASSOC);
-        foreach($users as $user){
-            echo "ID : " . $user['id_user'] . " - Nom : " . $user['name_user'] . " - Email : " . $user['email'] . "<br>";
-        }
+       
 
     } catch (PDOException $e) {
     echo "Erreur : " . $e->getMessage();
