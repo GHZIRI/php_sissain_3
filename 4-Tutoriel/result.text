@@ -1,0 +1,2 @@
+We learned to use try/catch and PDOException 
+to handle database errors safely and understand the problem without stopping the program.
