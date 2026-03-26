@@ -1,0 +1,7 @@
+"How can I protect my data from SQL injection? The advantages of prepared 
+statements are that they prevent SQL injection and improve performance.
+Also, I understood that prepare is used to prepare the query before execution, 
+and there are bindParam and bindValue.
+The difference between them is:
+bindParam: binds a variable, and its value can be changed before executing the query.
+bindValue: binds the value directly, and it cannot be changed."
