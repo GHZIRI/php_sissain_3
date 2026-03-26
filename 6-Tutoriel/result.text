@@ -1,0 +1,3 @@
+"How can I protect my website from security threats and prevent SQL injection? 
+I use filter_var to validate my email and htmlspecialchars to prevent XSS attacks, 
+such as malicious HTML or JavaScript input."
